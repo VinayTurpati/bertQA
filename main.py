@@ -27,4 +27,4 @@ def search():
 
 if __name__ == '__main__':
 	# Threaded option to enable multiple instances for multiple user access support
-	app.run(debug = True,threaded=True, port=2000)
+	app.run()
