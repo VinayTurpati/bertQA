@@ -4,7 +4,7 @@ from model import bert_model
 from get_results import answering_question, process, search2
 from transformers import BertForQuestionAnswering
 from transformers import BertTokenizer
-from flaskngrok import run_with_ngrok
+from flask_ngrok import run_with_ngrok
 app = Flask(__name__)
 run_with_ngrok(app)
 model_type = 'bert-large-cased-whole-word-masking-finetuned-squad'
